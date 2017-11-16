@@ -1,0 +1,64 @@
+@media (min-width: 200px) and (max-width:800px) {
+
+  #main ul{
+    display: none;
+  }
+  #main select {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+}
+
+@@media (min-width: 800px) {
+  select {
+    display: none;
+  }
+  #main ul{
+    margin-top: 0px;
+  }
+
+}
+
+body {
+  background: #fff;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+#main {
+  background: green;
+  height: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+}
+
+ul li a {
+  width: 100px;
+  color: #fff;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+ul li.selected {
+  background: #FFF;
+}
+
+ul li.selected a{
+  color: black;
+}
